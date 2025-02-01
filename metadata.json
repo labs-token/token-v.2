@@ -1,6 +1,37 @@
 {
-    "name": "Alej Token",
-    "symbol": "ALE",
-    "description": "ALE token from Solana.",
-    "image": "https://raw.githubusercontent.com/labs-token/token-v.2/refs/heads/main/nuevo.png"
+  "name": "Alej Token",
+  "symbol": "ALE",
+  "description": "ALE token from Solana. A revolutionary token for the future of decentralized finance.",
+  "image": "https://raw.githubusercontent.com/labs-token/token-v.2/refs/heads/main/nuevo.png",
+  "external_url": "https://alejandroceotoken.site/",
+  "seller_fee_basis_points": 500, // Opcional: porcentaje de regalías (ej. 500 = 5%)
+  "attributes": [
+    {
+      "trait_type": "Purpose",
+      "value": "Utility"
+    },
+    {
+      "trait_type": "Blockchain",
+      "value": "Solana"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "SPL"
+    }
+  ],
+  "properties": {
+    "category": "Token",
+    "creators": [
+      {
+        "address": "mntqTkdfZEb4rkPJmWe2kTyfYBk7aryGAgvhEu6qKnj", // Reemplaza con la dirección del creador
+        "share": 100 // Porcentaje de regalías para el creador
+      }
+    ],
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/labs-token/token-v.2/refs/heads/main/nuevo.png",
+        "type": "image/png"
+      }
+    ]
+  }
 }
